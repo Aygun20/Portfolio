@@ -1,0 +1,56 @@
+//Start Desktop
+  @media only screen and (min-width:992px){
+  //Home
+  section#home{
+    .content-title{
+      font-size: 5.5rem !important;
+      line-height: 7rem !important;
+      width: 80% !important;
+      }
+  }
+
+  //Start About
+  section#about{
+    .horizantal-content{padding-top: 10% !important;}
+    .my-container{
+      padding-right: 10rem;
+      p{font-size: 2rem !important;}
+      h4{font-size:2.2rem !important;}
+    }
+ }
+
+//Start About
+   section#service{
+    .horizantal-content{padding-top: 0;
+    p{width: 90%;}
+    }
+    .alx-card-background:hover .alx-content{
+      padding: 2rem !important;
+    }
+    .alx-content-st p{font-size: 2.5rem !important;}
+ }
+
+ //Start Skill
+ section#skill{
+  .skill-content{padding-top: 0 !important;}
+ }
+ //Start Portfolio 
+section#portfolioAll{
+  h1{padding-left: 6%;}
+    .portfolio-content{
+        margin-bottom: 4rem !important;
+    }
+    .portfolio-container{padding-right:  10rem !important;}
+  }
+ //start contact
+   section#contact{
+    h1{padding-top: 0 !important; }
+    .my-container{padding-right: 10rem;}
+    }
+
+  }
+
+
+  
+  
+  

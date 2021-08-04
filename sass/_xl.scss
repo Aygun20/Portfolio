@@ -1,0 +1,67 @@
+//   //only large  desktop
+@media only screen and (min-width:1200px){
+  h1.horizantal-title{
+    font-size: 5.5rem !important;
+  }
+  section#home{
+    .content-title{
+      line-height: 8rem;
+    }
+  }  
+  p.p{font-size: 2rem !important;}
+//Start About
+  section#about{
+    h1{padding-top: 10% !important; }
+    .about-content{
+      h4{font-size: 1.8rem !important;}
+     }
+ }
+ //Start Services
+ section#service{
+   .my-container{padding-left: 0 !important;}
+  .service-container{
+    flex-direction: row !important;
+    .horizantal-content{padding-top: 0;}
+    .alx-card-con{width: 45% !important;}
+    .service-content{width: 50%;}
+  }
+ }
+
+ //Start Skill
+ section#skill{
+   .my-container{padding: 0 2rem !important;}
+   .horizantal-content{padding-left: 0 !important;
+  p{font-size: 2.6rem !important;}
+}
+   .skill-bars{width: 450px !important; }
+ }
+ //Start Portfolio
+ section#portfolioAll{
+    .portfolio-content{ 
+       width: 30%; 
+  }
+   }
+ //start contact
+ section#contact{
+  .col-img{margin-top: 40%;}
+  .my-container{
+    padding-left: 0 !important;}
+     .alx-icon h5{
+       font-size: 2rem;
+   }
+}
+}
+
+
+
+//  //Start Portfolio
+// section#portfolioAll{
+//   padding: 0 6rem !important;
+//      }
+//  
+// }
+ 
+
+
+
+  

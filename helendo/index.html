@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="sass/owl.carousel.min.css">
+    <link rel="stylesheet" href="sass/owl.theme.default.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Helendo</title>
+  </head>
+  <body>
+  <header class="gray">
+    <div class="home-slider owl-carousel owl-theme">
+        <div class="home-slider__item">
+          <nav class="row my-5">
+            <div class="col-5 d-sm-none d-lg-block d-xl-block">
+             <input type="search" class="input-search border-0 bg-transparent font-2" style="outline: none;color: #dcb14a;" placeholder="Search Anything...">
+             <span><i class="fas fa-search font-2 text-secondary"></i></span>
+             <p class="mt-3 input-yellow" style="width: 26rem;height:.1rem;background-color: #888;"></p>
+            </div>
+            <div class="col-md-4 col-sm-8">
+              <h1 class="helendo text-uppercase fw-bold">Helendo</h1>
+            </div>
+            <div class="col-md-3 col-sm col-social">
+              <span id="user" class="hover-yellow me-5"><i class="far fa-user"></i></span>
+              <span id="heart" class="hover-yellow me-5 d-sm-none d-lg-inline-block d-xl-inline-block"><i class="far fa-heart"><span class="circle">3</span></i></span>
+              <span id="basket" class="hover-yellow me-5"><i class="fas fa-shopping-basket"><span class="circle2">3</span></i></span>
+              <div class="sidebar">
+                <button class="sidebarBtn">
+                  <span></span>
+                </button>
+                <div class="row mb-5">
+                  <div class="col">
+                     <ul>
+                       <li><a href="#" class="black mb-3">Language</a></li>
+                       <li><a href="#"><p class="yellow">English</p></a></li>
+                       <li><a href="#"><p class="text-gray hover-yellow">French</p></a></li>
+                       <li><a href="#"><p class="text-gray hover-yellow">Arabric</p></a></li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                     <ul>
+                       <li><a href="#" class="black mb-3"> Currencies</a></li>
+                       <li><a href="#"><p class="yellow">USD-US Dollar</p></a></li>
+                       <li><a href="#"><p class="text-gray hover-yellow">Euro</p></a></li>
+                       <li><a href="#"><p class="text-gray hover-yellow">Pround</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="accordion border-0" id="accordionExample">
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-buttonMy" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                       <h4 class="d-flex justify-content-between ms-5 mb-4">Home<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body" style="overflow-y: scroll;">
+                        <ul>
+                          <li><h4 class="black mb-5">Home V1 – Default </h4></li>
+                          <li><h4 class="black mb-5">Home V2 – Boxed</h4></li>
+                          <li><h4 class="black mb-5">Home V3 – Carousel</h4></li>
+                          <li><h4 class="black mb-5">Home V4 – Categories</h4></li>
+                          <li><h4 class="black mb-5">Home V5 – Collection</h4></li>
+                          <li><h4 class="black mb-5">Home V6 – Full Width</h4></li>
+                          <li><h4 class="black mb-5">Home V7 – Left Sidebar</h4></li>
+                          <li><h4 class="black mb-5">Home V8 – Metro</h4></li>
+                          <li><h4 class="black mb-5">Home V9 – Minimal</h4></li>
+                          <li><h4 class="black mb-5">Home V10 – Parallax</h4></li>
+                          <li><h4 class="black mb-5">Home V11 – Video Feature</h4></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-buttonMy collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h4 class="d-flex justify-content-between ms-5 mb-4">Shops<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                          <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button class="accordion-buttonMy collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <h4 class="d-flex justify-content-between ms-5 mb-4">Shop Pages<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <ul>
+                                  <li><h4 class="black mb-5">Shop 3 Columns</h4></li>
+                                  <li><h4 class="black mb-5">Shop 4 Columns</h4></li>
+                                  <li><h4 class="black mb-5">Shop 5 Columns</h4></li>
+                                  <li><h4 class="black mb-5">Shop 6 Columns</h4></li>
+                                  <li><h4 class="black mb-5">Shop Categories</h4></li>
+                                  <li><h4 class="black mb-5">Shop Carousel</h4></li>
+                                  <li><h4 class="black mb-5">Shop With Border</h4></li>
+                                  <li><h4 class="black mb-5">Shop Left Sidebar</h4></li>
+                                  <li><h4 class="black mb-5">Shop Right Sidebar</h4></li>
+                                  <li><h4 class="black mb-5">Shop Without Gutter</h4></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button class="accordion-buttonMy collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <h4 class="d-flex justify-content-between ms-5 mb-4">Product Pages<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <ul>
+                                  <li><h4 class="black mb-5">Default</h4></li>
+                                  <li><h4 class="black mb-5">Simple</h4></li>
+                                  <li><h4 class="black mb-5">Variable</h4></li>
+                                  <li><h4 class="black mb-5">Groupped</h4></li>
+                                  <li><h4 class="black mb-5">On Sale</h4></li>
+                                  <li><h4 class="black mb-5">Out Of Stock</h4></li>
+                                  <li><h4 class="black mb-5">Affiliate</h4></li>
+                                  <li><h4 class="black mb-5">Image Swatches</h4></li>
+                                  <li><h4 class="black mb-5">With Countdown Timer</h4></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                              <button class="accordion-buttonMy collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <h4 class="d-flex justify-content-between ms-5 mb-4">Other Pages<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                              </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <ul>
+                                  <li><h4 class="black mb-5">Cart</h4></li>
+                                  <li><h4 class="black mb-5">Checkout</h4></li>
+                                  <li><h4 class="black mb-5">Variable</h4></li>
+                                  <li><h4 class="black mb-5">My Account</h4></li>
+                                  <li><h4 class="black mb-5">Wishlist</h4></li>
+                                  <li><h4 class="black mb-5">Order Tracking</h4></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-buttonMy collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <h4 class="d-flex justify-content-between ms-5 mb-4">Pages<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <ul>
+                          <li><h4 class="black mb-5">About Us</h4></li>
+                          <li><h4 class="black mb-5">Contact</h4></li>
+                          <li><h4 class="black mb-5">Coming Soon</h4></li>
+                          <li><h4 class="black mb-5">404 Page</h4></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item border-0">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-buttonMy collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                       <h4 class="d-flex justify-content-between ms-5 mb-4">Blog<span><i class="fas fa-caret-down" style="font-size: 1.6rem;"></i></span></h4> 
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <ul>
+                          <li><h4 class="black mb-5">Blog Grid</h4></li>
+                          <li><h4 class="black mb-5">Blog List</h4></li>
+                          <li><h4 class="black mb-5">Blog Masonry</h4></li>
+                          <li><h4 class="black mb-5">Blog Sidebar</h4></li>
+                          <li><h4 class="black mb-5">Single Post V1</h4></li>
+                          <li><h4 class="black mb-5">Single Post V2</h4></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h3 style="margin-top: 5rem;" class="ps-5 black">Contact Us</h3>
+                <p class="ps-5 mb-3" style="font-size: 1.6rem;color: #888;padding-right: 5rem;">69 Halsey St, Ny 10002, New York, United States</p>
+                <p class="ps-5 mb-3" style="font-size: 1.6rem;color: #888;">support.center@unero.co</p>
+                <p class="ps-5 mb-3" style="font-size: 1.6rem;color: #888;">(0091) 8547 632521</p>
+                <h4 class="ps-5" style="margin-top: 5rem;">Follow US On Socials</h4>
+                <div class="d-flex ps-5 pt-4">
+                  <span><i style="font-size: 1.6rem;" class="black hover-yellow me-5 fab fa-facebook-f"></i></span>
+                  <span><i style="font-size: 1.6rem;" class="black hover-yellow me-5 fab fa-twitter"></i></span>
+                  <span><i style="font-size: 1.6rem;" class="black hover-yellow me-5 fab fa-google-plus-g"></i></i></span>
+                  <span><i style="font-size: 1.6rem;" class="black hover-yellow me-5 fab fa-linkedin-in"></i></span>
+                  <span><i style="font-size: 1.6rem;" class="black hover-yellow me-5 fab fa-pinterest-p"></i></span>
+               </div>
+                <button class="sidebarBtn">
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </nav>
+          <div class="row" style="margin-top: 11%;">
+            <div class="home-slider-left col-sm col-lg" style="padding-bottom: 10rem;">
+              <h3 class="text-uppercase yellow" style="width: 20%;line-height: 2.5rem;">Chair  Collection 2021</h3>
+              <h1 class="left-title black animate__animated animate__fadeInLeft animate__delay-2s" style="width: 80%;">Welcome To Helendo Store</h1>
+              <div class="line"></div>
+              <p class="left-p black mb-5" style="font-size: 1.6rem;"> Many desktop publishing packages and web page editors now use Lorem ipsum as their default model text </p>
+              <button type="button" class="btn btn-dark fw-bold rounded-0" style="background-color: #000;font-size: 1.3rem;padding: 1rem 2.5rem;">Shop now <span><i class="fal fa-arrow-right"></i></span></button>
+            </div>
+            <div class="home-slider-right1 col-sm col-lg">
+              <img src="img/Home-default-1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="home-slider__item">
+          <div class="home-slider__item">
+          <nav class="row my-5">
+            <div class="col-5 d-sm-none d-lg-block d-xl-block">
+             <input type="search" class="input-search border-0 bg-transparent font-2" style="outline: none;color: #dcb14a;" placeholder="Search Anything...">
+             <span><i class="fas fa-search font-2 text-secondary"></i></span>
+             <p class="mt-3 input-yellow" style="width: 26rem;height:.1rem;background-color: #888;"></p>
+            </div>
+            <div class="col-md-4 col-sm-8">
+              <h1 class="helendo text-uppercase fw-bold">Helendo</h1>
+            </div>
+            <div class="col-md-3 col-sm col-social">
+              <span id="user" class="hover-yellow me-5"><i class="far fa-user"></i></span>
+              <span id="heart" class="hover-yellow me-5 d-sm-none d-lg-inline-block d-xl-inline-block"><i class="far fa-heart"></i></span>
+              <span id="basket" class="hover-yellow me-5"><i class="fas fa-shopping-basket"></i></span>
+              <span id="toggle"><i class="hover-yellow fas fa-bars"></i></span>
+            </div>
+          </nav>
+          <div class="row" style="margin-top: 11%;">
+            <div class="home-slider-left col-sm col-lg" style="padding-bottom: 10rem;">
+              <h3 class="text-uppercase yellow" style="width: 20%;line-height: 2.5rem;">Chair  Collection 2021</h3>
+              <h1 class="left-title black animate__animated animate__fadeInLeft animate__delay-2s" style="width: 80%;">Welcome To Helendo Store</h1>
+              <div class="line"></div>
+              <p class="left-p black mb-5" style="font-size: 1.6rem;"> Many desktop publishing packages and web page editors now use Lorem ipsum as their default model text </p>
+              <button type="button" class="btn btn-dark fw-bold rounded-0" style="background-color: #000;font-size: 1.3rem;padding: 1rem 2.5rem;">Shop now <span><i class="fal fa-arrow-right"></i></span></button>
+            </div>
+            <div class="home-slider-right col-sm col-lg">
+              <img src="img/Home-default-2.png" style="width: 75%;" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="home-slider__item">
+          <div class="home-slider__item">
+          <nav class="row my-5">
+            <div class="col-5 d-sm-none d-lg-block d-xl-block">
+             <input type="search" class="input-search border-0 bg-transparent font-2" style="outline: none;color: #dcb14a;" placeholder="Search Anything...">
+             <span><i class="fas fa-search font-2 text-secondary"></i></span>
+             <p class="mt-3 input-yellow" style="width: 26rem;height:.1rem;background-color: #888;"></p>
+            </div>
+            <div class="col-md-4 col-sm-8">
+              <h1 class="helendo text-uppercase fw-bold">Helendo</h1>
+            </div>
+            <div class="col-md-3 col-sm col-social">
+              <span id="user" class="hover-yellow me-5"><i class="far fa-user"></i></span>
+              <span id="heart" class="hover-yellow me-5 d-sm-none d-lg-inline-block d-xl-inline-block"><i class="far fa-heart"></i></span>
+              <span id="basket" class="hover-yellow me-5"><i class="fas fa-shopping-basket"></i></span>
+              <span id="toggle"><i class="hover-yellow fas fa-bars"></i></span>
+            </div>
+          </nav>
+          <div class="row" style="margin-top: 11%;">
+            <div class="home-slider-left col-sm col-lg" style="padding-bottom: 10rem;">
+              <h3 class="text-uppercase yellow" style="width: 20%;line-height: 2.5rem;">Chair  Collection 2021</h3>
+              <h1 class="left-title black animate__animated animate__fadeInLeft animate__delay-2s" style="width: 80%;">Welcome To Helendo Store</h1>
+              <div class="line"></div>
+              <p class="left-p black mb-5" style="font-size: 1.6rem;"> Many desktop publishing packages and web page editors now use Lorem ipsum as their default model text </p>
+              <button type="button" class="btn btn-dark fw-bold rounded-0" style="background-color: #000;font-size: 1.3rem;padding: 1rem 2.5rem;">Shop now <span><i class="fal fa-arrow-right"></i></span></button>
+            </div>
+            <div class="home-slider-right col-sm col-lg">
+              <img src="img/Home-default-3.png" style="width: 55%;" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </header>
+  <!-- Start Section Decoration -->
+  <section id="dec">
+    <div class="row rowHover">
+      <div class="zoom col-sm-12 col-md-6 mb-5">
+        <img src="img/deco-1.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p class="text-gray" style="font-size: 1.6rem;">FEATURED PRODUCT</p>
+        <h1 class="hover-yellow nancy fw-bold" style="font-size: 3.2rem;">Nancy Chair</h1>
+        <div class="line"></div>
+         <p style="font-size: 1.6rem;">When an unknown printer took a galley of type and scrambled it to make a type specimen book. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+         <button type="button" class="btn btn-outline-dark mb-4">Only $90 <i class="fal fa-arrow-right"></i></span></button>
+         <div class="img-box d-flex flex-row-reverse"><img src="img/wood-coth.png" alt=""></div>
+      </div>
+    </div>
+
+    <div class="row rowHover row-2">
+      <div class="col-sm-12 col-md-6 mb-5">
+        <p class="text-gray" style="font-size: 1.6rem;">FEATURED PRODUCT</p>
+        <h1 class="hover-yellow nancy fw-bold" style="font-size: 3.2rem;">Table Wood Pine</h1>
+        <div class="line"></div>
+         <p style="font-size: 1.6rem;">Excepteur sint occaecat cupidatat non proident, sunt in culpaqui
+          officia deserunt mollit anim id est laborum</p>
+         <button type="button" class="btn btn-outline-dark mb-4">Only $50 <i class="fal fa-arrow-right"></i></span></button>
+         <div class="img-box-2"><img src="img/pine.png" alt=""></div>
+      </div>
+      <div class="zoom col-sm-12 col-md-6 ">
+        <img src="img/deco-2.png" alt="" style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="row rowHover">
+      <div class="zoom col-sm-12 col-md-6 mb-5">
+        <img src="img/deco-3.png" alt="">
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <p class="text-gray" style="font-size: 1.6rem;">FEATURED PRODUCT</p>
+        <h1 class="hover-yellow nancy fw-bold" style="font-size: 3.2rem;">Art Deco Home</h1>
+        <div class="line"></div>
+         <p style="font-size: 1.6rem;">Many desktop publishing packages and web page editors now use
+          Lorem Ipsum as their default model text, and a search for.
+          officia deserunt mollit anim id est laborum</p>
+         <button type="button" class="btn btn-outline-dark mb-4">Only $30 <i class="fal fa-arrow-right"></i></span></button>
+         <div class="img-box"><img src="img/art-dec.png" alt=""></div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Start Slider -->
+  <section id="slider">
+    <div class="slider-title text-center d-flex justify-content-center align-items-center flex-column">
+      <p style="font-size: 3.8rem;font-weight: 500;">Best Selling</p>
+      <div class="line"></div>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="bg item">
+          <img src="img/selling-1.jpg" alt="">
+          <div class="out-of-stock">Out Of Stock</div>
+          <div class="overlay text-center">
+           <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+           <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+           <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Teapot with black tea</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$40.00-$635.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-2.jpg" alt="">
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+            <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+            <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Simple Chair</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$70.00-$95.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-3.jpg" alt="">
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+            <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+            <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Smooth Disk</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$46.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-4.jpg" alt="">
+          <div class="sale">-14 %</div>
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+            <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+           <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Wooden Flowerpot</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$40.00-$635.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-5.jpg" alt="">
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+            <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+            <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Living room & Bedroom lights</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$60.00-$69.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-6.jpg" alt="">
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+            <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+           <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Gray lamp</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$80.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-7.jpg" alt="">
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+            <span class="hover-yellow" id="basket"><i class="fas fa-shopping-basket"></i></span>
+           <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Decoration wood</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$50.00</p>
+          </div>
+        </div>
+        <div class="bg item">
+          <img src="img/selling-8.jpg" alt="">
+          <div class="overlay text-center">
+            <span class="hover-yellow"><i class="fas fa-plus"></i></span>
+           <span  class="hover-yellow"id="basket"><i class="fas fa-shopping-basket"></i></span>
+           <span class="hover-yellow"><i class="far fa-heart"></i></span>
+          </div>
+          <div class="slider-content text-center my-4">
+            <h3 class="hover-yellow">Teapot with black tea</h3>
+            <p class="text-gray" style="font-size: 1.6rem;">$20.00-$135.00</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Start DecoCollection -->
+  <section id="collection" style="width:100%;background-image: url('img/h1-countdown.jpg');padding: 10rem">
+     <p style="font-size:3.5rem;font-weight: 500;">Deco Collection <span class="text-danger">50% OFF</span></p>    
+     <div class="line"></div>
+     <p class="collec-p">The standard chunk of Lorem Ipsum used since the 1500s is reproduced for those. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum</p>
+
+      <div id="countdown">
+        <ul>
+          <li>
+            <span class="text-uppercase" id="days"></span>
+            <span class="time-rel text-center black" style="font-weight: 700;font-size: 2rem;">
+              Days
+              <span class="time-dots dot1">:</span>
+            </span>
+          </li>
+          <li>
+            <span class="text-uppercase" id="hours"></span>
+            <span class="time-rel text-center black" style="font-weight: 700;font-size: 2rem;">
+              Hours 
+              <span class="time-dots dot2">:</span>
+            </span>
+          </li>
+          <li>
+            <span class="text-uppercase" id="minutes"></span>
+            <span class="time-rel text-center black" style="font-weight: 700;font-size: 2rem;">
+              Mints
+              <span class="time-dots dot3">:</span>
+            </span>
+          </li>
+          <li>
+            <span class="text-uppercase" id="seconds"></span>
+            <span class="time-rel text-center black" style="font-weight: 700;font-size: 2rem;">
+              Secs
+            </span>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-dark fw-bold rounded-0" style="background-color: #000;font-size: 1.3rem;padding: 1rem 2.5rem;margin-top: 5rem;">Shop now <span><i class="fal fa-arrow-right"></i></span></button>
+   </section>
+  <!-- Start Blog -->
+  <section id="blog">
+    <div class="slider-title text-center d-flex justify-content-center align-items-center flex-column">
+      <p style="font-size: 3.8rem;font-weight: 500;">Our Blog</p>
+      <div class="line"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md">
+          <div class="card border-0">
+      <div class="img-box1">
+        <img src="img/blog-1.jpg" class="card-img-top pe-4" alt="...">
+        <div class="img-over1 img-over">Read more +</div>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Interior design is the art, the interior designer is the artist.</h3>
+        <div class="thinLine"></div>
+        <p class="card-text" style="font-size: 1.6rem;">October 15, 2020 <span class="text-gray">/</span><span class="hover-yellow"> Hastheme</span> <span class="text-gray">/</span> <span class="text-gray">in</span><span class="hover-yellow"> Chair</span></p>
+      </div>
+    </div>
+      </div>
+      <div class="col-sm-6 col-md">
+          <div class="card border-0">
+      <div class="img-box2">
+        <img src="img/blog-2.jpg" class="card-img-top pe-4" alt="...">
+        <div class="img-over2 img-over">Read more +</div>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Interior design is the art, the interior designer is the artist.</h3>
+        <div class="thinLine"></div>
+        <p class="card-text" style="font-size: 1.6rem;">October 15, 2020 <span class="text-gray">/</span><span class="hover-yellow"> Hastheme</span> <span class="text-gray">/</span> <span class="text-gray">in</span><span class="hover-yellow"> Chair</span></p>
+      </div>
+    </div>
+      </div>
+      <div class="col-sm-6 col-md">
+          <div class="card border-0">
+      <div class="img-box3">
+        <img src="img/blog-3.jpg" class="card-img-top pe-4" alt="...">
+        <div class="img-over3 img-over">Read more +</div>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Interior design is the art, the interior designer is the artist.</h3>
+        <div class="thinLine"></div>
+        <p class="card-text" style="font-size: 1.6rem;">October 15, 2020 <span class="text-gray">/</span><span class="hover-yellow"> Hastheme</span> <span class="text-gray">/</span> <span class="text-gray">in</span><span class="hover-yellow"> Chair</span></p>
+      </div>
+    </div>
+      </div>
+    </div>    
+  </section>
+ <!-- Start Footer -->
+ <footer>
+   <div class="row">
+    <div class="col-md-4 col-sm-12 d-flex flex-column">
+      <p style="font-size: 3.8rem;font-weight: 500;">Our Newsletter</p>
+      <div class="line"></div>
+    </div>
+
+    <div class="col-md-8 col-sm-12">
+      <input type="email" class="email text-secondary gray border-0 rounded-0 " style="padding: 1.4rem;outline: none;"  placeholder="Your email adress">
+      <input type="submit" style="background-color: #000;padding: 1.4rem 4rem;" class="text-light border-0 rounded-0" value="Subscribe">
+    </div>
+   </div>
+
+   <div class="row">
+     <div class="col-md-3 col-sm-6">
+       <ul>
+         <li><h2 class="mb-5">Address</h2></li>
+         <li><span><i class="me-4 fas fa-map-marker-alt"></i></span> <span>Helendo, Chicago, USA 2018</span></li>
+         <li><span><i class="me-4 fas fa-phone-alt"></i></span> <span class="hover-yellow">+846677028028</span></li>
+         <li class="d-flex mt-5">
+           <span><i class="hover-yellow me-5 fab fa-facebook-f"></i></span>
+           <span><i class="hover-yellow me-5 fab fa-twitter"></i></span>
+           <span><i class="hover-yellow me-5 fab fa-tumblr"></i></span>
+          </li>
+       </ul>
+     </div>
+     <div class="col-md-3 col-sm-6">
+       <ul>
+         <li><h2 class="mb-5">Help & Information</h2></li>
+         <li class="hover-yellow">Help & Contact Us</li>
+         <li class="hover-yellow">Returns & Refunds</li>
+         <li class="hover-yellow">Online Stores</li>
+         <li class="hover-yellow">Terms & Conditions</li>
+       </ul>
+     </div>
+     <div class="col-md-2 col-sm-6">
+      <ul>
+        <li><h2 class="mb-5">About Us</h2></li>
+        <li class="hover-yellow">About Us</li>
+        <li class="hover-yellow">What We Do</li>
+        <li class="hover-yellow">FAQ Page</li>
+        <li class="hover-yellow">Contact Us</li>
+      </ul>
+     </div>
+     <div class="col-md col-sm-6">
+      <ul>
+        <li><h2 class="mb-5">Newsletter</h2></li>
+        <li>
+          <input type="email" class="yellow border-0 rounded-0 pb-0" style="padding: 1.4rem;outline: none;"  placeholder="Your email adress" <span> <i class="fas fa-long-arrow-alt-right"></i></span>
+          <div class="thin"></div>
+        </li>
+        <li class="d-flex mt-5 d-sm-none d-lg-block d-xl-block">
+          <span class="hover-yellow me-5">Term & Condition</span>
+          <span class="hover-yellow me-5"> Policy</span>
+          <span class="hover-yellow">Map</span>
+         </li>
+      </ul>
+     </div>
+   </div>
+ 
+   <div class="row" style="margin-top: 10rem;">
+    <div class="main-1 col-md col-sm-12 d-flex align-items-center justify-content-center">
+      <li class="d-flex" style="font-size: 1.8rem;">
+        <span class="hover-yellow me-5">Term & Condition</span>
+        <span class="hover-yellow me-5"> Policy</span>
+        <span class="hover-yellow">Map</span>
+       </li>
+    </div>
+    <div class="col-md col-sm-12">
+      <div class="text-center" style="padding-left: 5rem;">
+        <h1 class="helendo text-uppercase fw-bold mb-4" style="font-size: 3.1rem;">Helendo</h1>
+      </div>
+    </div>
+    <div class="social col-md col-sm-12 d-flex align-items-center justify-content-center">
+      <li class="d-flex ps-5" style="font-size: 1.6rem;">
+        <h3 class="me-5">Follow Us On Social</h3>
+        <span><i class="hover-yellow me-5 fab fa-facebook-f"></i></span>
+        <span><i class="hover-yellow me-5 fab fa-twitter"></i></span>
+        <span><i class="hover-yellow me-5 fab fa-tumblr"></i></span>
+     </li>
+    </div>
+  </div>
+  <p class="text-center" style="font-size: 1.7rem;">© 2020 Helendo. <span class="hover-yellow">All Rights Reserved.</span></p>
+ </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="script/owl.carousel.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

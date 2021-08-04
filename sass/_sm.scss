@@ -1,0 +1,86 @@
+  //only phone
+  @media only screen and (min-width: 0px) {
+    p.p{font-size: 1.8rem;}
+    section#home{
+      .btn-box{
+        flex-direction: column;
+        .btn-prim{margin-bottom: 2rem;}
+        .btn-white{margin-bottom: 2rem;}
+      }
+      .content-title{
+        font-size: 2.5rem;
+        line-height: 4rem;
+        width: 96%;
+        }
+      }  
+
+  //Start About
+    section#about{
+      h1{padding-top: 60%; }
+   }
+ 
+ //Section Service
+    section#service{
+      .horizantal-content{padding-top: 60%;
+      h1{font-size: 3.5rem;}
+      }
+   }
+  
+  //Start Skills
+    section#skill{
+      .skill-content{padding-top: 20%;}
+    }
+ //Start Portfolio
+
+//Start Contact
+    section#contact{
+       h1{padding-top: 60%; }
+       input.name{margin-bottom: 3rem ;}
+    }
+  }
+  
+
+
+  // phone-sm
+  @media only screen and (min-width: 576px) {
+    p.p{font-size: 2rem;}
+    //Home
+    section#home{
+      .content-title{
+        font-size: 3rem;
+        line-height: 5rem;
+        width: 80%;
+        }
+      .btn-box{
+        flex-direction: row;
+        .btn-prim{margin-right: 2rem;}
+      }
+    }
+  //Start About
+      section#about{
+        h1{padding-top: 80%; }
+        .about-content{
+          h4{font-size: 1.8rem;}
+         }
+     }
+
+ //Section Service
+     section#service{
+       .horizantal-content{padding-top: 40%;}
+   }
+
+    //Start Skills
+    section#skill{
+      .skill-content{padding-top: 10%;}
+    p.p{font-size: 2.6rem;}
+    }
+    // Start Portfolio
+    section#portfolioAll{
+      .portfolio-container{
+        padding: 0 3rem;
+      }
+    .portfolio-container{
+        justify-content: center;
+    }
+    }
+  }

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+html{
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  width: 100%;
+  height: 98vh;
+  }
+.container{
+  width: 96%;
+  background-color:#fff;
+  height:700vh;
+  margin: 0 2rem;
+ }
+.container nav {
+  height:12vh;
+   width: 100%;
+   padding:1rem;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -670px;
+  width: 670px;
+  background: #202020;
+  transition: all .5s ease;
+  z-index: 6666;
+
+}
+.sidebar header {
+  position: relative;
+  top: 10rem;
+  font-size: 22px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #202020;
+  user-select: none;
+}
+
+.sidebar ul a{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 900;
+}
+ul li:hover a{
+  color: #ec3737;
+}
+
+.sidebar header .res-social-tab{
+        width: 94%;  
+        height: 3rem;
+        position: absolute;
+        bottom: 11rem;
+        padding-left: 2rem;
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+    }
+    .sidebar header .res-social-tab .social-list .icon :hover{
+      background-color: rgba(255,255,255,0.9) ;
+      color: #000;
+    } 
+    .sidebar header .res-social-tab .res-text{
+      color: #fff;
+      font-size: 1rem;
+      width: 10rem;
+      height: 2rem;
+      line-height: 2rem;
+      padding: .5rem;
+     }
+    
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #cancel{
+    width: 2.2rem;
+    height: 3.1rem;
+    line-height: 3.1rem;
+    background: #2b2b2b;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    z-index: 4005;
+
+}
+label #btn{
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: #000;
+  padding: 6px 12px;
+  transition: all .5s;
+}
+label #cancel{
+  z-index: 9999;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: #fff;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 40px;
+  top:30px;
+  position: fixed;
+}
+  
+ button {
+    width: 11rem;
+    height: 3rem;
+    line-height: 2.5rem;
+    outline: none;
+    border-radius: 2.5rem;
+    font-size: 1.4rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: .1rem solid #000;
+    transition: .3s ease-in-out;
+}
+button a{
+  color:#000;
+}
+button:hover{
+    background-color: black;
+}
+button:hover a{
+    color:#fff;
+}
+
+      /* End nav */
+    header .section#main .main-col-1{
+        width: 25%;
+        height: 86vh;
+        position: relative;
+    }
+    .section#main .main-col-1 .slider-menu {
+        width: 40%;
+        height: 67rem;
+        background-color: rgba(255,255,255,0.8);
+        z-index: 2;
+        position: absolute;
+        transform: translateX(50%);
+    }
+    .section#main .main-col-1 .slider-menu .menu-con  ul{
+        height: 64rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .section#main .main-col-1 .slider-menu .menu-con{
+position: relative;
+    }
+.slider-menu .menu-con ul{
+     position: absolute;
+     left: 14rem;
+     top:10rem
+    }
+.slider-menu .menu-con ul li a{
+      font-size: 5rem;
+      color: #000;
+      font-weight: 900;
+      transition: all .2s ease-in-out;
+      
+    }
+    .slider-menu .menu-con ul li :hover{
+        color: #ec3737;
+    }
+    .main-col-1 .social-tab{
+        display: inline-block;
+        width: 22rem;
+        height: 3rem;
+       position: absolute;
+        left: 0;
+        bottom: 0;
+     }
+     .social-tab .social-list{
+       display: flex;
+       width: 8rem;
+       margin-left: 1.7rem;
+       justify-content: space-between;
+       align-items: center;
+       float: left;
+       transition: all .4s all;
+       margin-right: 2rem;
+    }
+    .social-tab .social-list .icon :hover{
+        background-color: #000;
+        color: #fff;
+        padding: .3rem;
+        border-radius: 50%;
+    }
+    .social-tab .social-list .icon{
+        font-size: 1.2rem;
+        line-height: 3rem;
+      }
+      .social-tab .text{
+      width: 10rem;
+      font-size: 1rem;
+      color: rgba(0,0,0,.6);
+      float: right;
+    }
+    .social-tab .text p{
+        font-size: .8rem;
+        color: rgba(0,0,0,.6);
+     
+      }
+    
+    .slider-img{
+        width: 75%;
+        height: 86vh;
+        float: right;
+       background-size: cover;
+        background-image: url(img/slider-img.jpg);
+        }
+    .container .slider-img .white-overlay {
+          display: inline-block;
+          width: 20%;
+          height: 86vh;
+          background-color: rgba(255,255,255,0.6);
+      }  
+     
+      @media only screen and (max-width:600px){
+body nav.navbar{
+    display:none;
+}
+ .container{
+     max-width: 600px;
+     width: 94%;
+     height:750vh;
+     margin: 0 1rem;
+     align-items: center;
+ }
+   header{
+       height:73vh;
+   }
+   .container .slider-img .white-overlay{
+       display: none;
+   }
+
+ .container nav{
+     width: 94%;
+     position: fixed;
+    background-color: #fff;
+    z-index: 500;
+     top: 0;
+    margin-right: 10rem;
+    
+ }
+ button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    border-radius: 3rem;
+   
+}
+      /* End nav */
+ header .section#main .main-col-1{
+     width: 25%;
+     height: 35vh;
+ }
+ .section#main .main-col-1 .slider-menu {
+   display: none;
+ }
+ .section#main .main-col-1 .slider-menu .menu-con  ul{
+    display: none;
+ }
+  slider-menu .menu-con ul{
+ display: none;
+ }
+ .slider-menu .menu-con ul li a{
+     display: none;
+          }
+ .main-col-1 .social-tab{
+   display: none;
+     }   
+.slider-img{
+  width: 100%;
+  height: 42vh;
+  margin-top: 8em;
+  margin-bottom: 8rem;
+     }
+          /* end header */
+
+  .sidebar ul{
+    display: block;
+    position: absolute;
+    width: 20rem;
+     }
+      .sidebar ul a{
+    font-size: 3rem;
+    font-family: 'Roboto';
+     }
+      ul li:hover a{
+          color: #ec3737;
+     }
+
+  .sidebar header .res-social-tab{
+     width: 70%;  
+     position: absolute;
+     bottom: -1rem;      
+      }
+   .sidebar header .res-social-tab .social-list .icon :hover{
+     background-color: rgba(255,255,255,0.9) ;
+     color: #000;
+         }      
+       
+    }
